@@ -1,0 +1,16 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="9x(.x6s`:fMFr?i9N|Dd" x="-573" y="-374">
+    <mutation component_type="Form" is_generic="false" instance_name="EmpregoBR" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">EmpregoBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="r0L|?DQ[tqsn)O(re6Bb">
+        <value name="SCREEN">
+          <block type="text" id="hfK/1==$]KJriQ$lokI%">
+            <field name="TEXT">TelaPrincipalBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

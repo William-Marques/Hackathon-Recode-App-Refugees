@@ -1,0 +1,42 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="juxLgE)v$R((M_u[37|j" x="-1061" y="-633">
+    <mutation component_type="Form" is_generic="false" instance_name="TelaInternet" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">TelaInternet</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="1x.3DY}s[$%Fr[j[KwUl">
+        <value name="SCREEN">
+          <block type="text" id="ZdP|=q2o*=:x?h3oFn.[">
+            <field name="TEXT">TelaPrincipalBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="pBB{}$#2O1NfB[Q5.R{6" x="-1060" y="-564">
+    <mutation component_type="Button" is_generic="false" instance_name="Bt_SP" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Bt_SP</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="yBMPDb||`Va3#=.io:Po">
+        <value name="SCREEN">
+          <block type="text" id="9?cR]Tqrw6udnCNOd.IX">
+            <field name="TEXT">TelaSPBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="$ZhSTu2v|7LWpGa}u*)s" x="-1060" y="-496">
+    <mutation component_type="Button" is_generic="false" instance_name="Bt_RJ" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Bt_RJ</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="$t0h7`]{HG;Y|$(8Vaw8">
+        <value name="SCREEN">
+          <block type="text" id="#iL@.=N0x0[TXdoJbtz^">
+            <field name="TEXT">Tela_RJBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

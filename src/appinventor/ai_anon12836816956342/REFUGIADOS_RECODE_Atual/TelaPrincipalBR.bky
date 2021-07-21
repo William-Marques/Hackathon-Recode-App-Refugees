@@ -1,0 +1,107 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="qs-#w*baH!VBVxSY#_1q" x="-1885" y="-763">
+    <mutation component_type="Form" is_generic="false" instance_name="TelaPrincipalBR" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">TelaPrincipalBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="AuO8tm,xVOF`[hTCD@L[">
+        <value name="SCREEN">
+          <block type="text" id="BI9afc]^.FzF^(t!I~4d">
+            <field name="TEXT">TELA_BEMVINDO</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="36dPx@xJ[=3*ENBnEv_[" x="-1883" y="-692">
+    <mutation component_type="Button" is_generic="false" instance_name="btnWifiGratisBR" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnWifiGratisBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="p:Ui3(4D0*Q}k#YhH;(m">
+        <value name="SCREEN">
+          <block type="text" id="pMJGMCR)8zn{ML41WUWe">
+            <field name="TEXT">TelaInternet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="mB4;={;2)M%WpKX.LUr9" x="-1885" y="-622">
+    <mutation component_type="Button" is_generic="false" instance_name="btnWhatsappBR" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnWhatsappBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="Nc*3yANze+lM#BJgBrfg">
+        <value name="SCREEN">
+          <block type="text" id=":goN67RiMJM4HD~-4;9~">
+            <field name="TEXT">GruposWhatsappBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="H,z!HzlpXsc[}79ee*_/" x="-1885" y="-554">
+    <mutation component_type="Button" is_generic="false" instance_name="btnMoradiaBR" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnMoradiaBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="8]-YWtMdGGTsSMF{h{B[">
+        <value name="SCREEN">
+          <block type="text" id="q4d9AIaRb.H]?`BSNT^d">
+            <field name="TEXT">MoradiaBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="9Z1P7MK3n~~V+=/t5Wgk" x="-1885" y="-484">
+    <mutation component_type="Button" is_generic="false" instance_name="btnEmpregoBR" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnEmpregoBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="g5C_t7N|8)RDDafT+$Ce">
+        <value name="SCREEN">
+          <block type="text" id="#b_zRBjg?rS12Y0#oc)Z">
+            <field name="TEXT">EmpregoBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="_7s[E:ptmC2milD@i+[0" x="-1886" y="-415">
+    <mutation component_type="Button" is_generic="false" instance_name="btnProvidenciarDocumentacaoBR" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnProvidenciarDocumentacaoBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="+2ax^7kpM7:L2rteTUda">
+        <value name="SCREEN">
+          <block type="text" id="%i%Thg18nNyB+G2lar!~">
+            <field name="TEXT">DocumentacaoBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="EQ|hLKoHGelv{6lUQOQf" x="-1887" y="-347">
+    <mutation component_type="Button" is_generic="false" instance_name="btnTutoriaisBR" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnTutoriaisBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="Xi%;]1+:k!fR.MVG.^`y">
+        <value name="SCREEN">
+          <block type="text" id="3]D}c:w1AAo$,`m{)$h(">
+            <field name="TEXT">TutoriaisBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="XS-W|;W^h}$prmO7n)ai" x="-1887" y="-282">
+    <mutation component_type="Button" is_generic="false" instance_name="btnOngsBR" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnOngsBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="R*LDY=_G6HcLv6m4o}1-">
+        <value name="SCREEN">
+          <block type="text" id="#WL??zf)?@*%@C`8a+Hl">
+            <field name="TEXT">OngsBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

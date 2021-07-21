@@ -1,0 +1,81 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="g;yTV}zcoqqQ-]H5?LrP" x="-4048" y="-2939">
+    <mutation component_type="Form" is_generic="false" instance_name="TELA_BEMVINDO" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">TELA_BEMVINDO</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="|bxNu#$g2oj@SK|`F{.Y">
+        <value name="SCREEN">
+          <block type="text" id="esTy7;azozM2h:oW-mYe">
+            <field name="TEXT">Screen1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="N+`1i%,`yYBS;JL:vA|(" x="-4047" y="-2866">
+    <mutation component_type="Button" is_generic="false" instance_name="btnPortugues" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnPortugues</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="DX]5p^C%cGoK_kpE/NC4">
+        <value name="SCREEN">
+          <block type="text" id="}!#s+8LQK7FEJ#Bvjy`j">
+            <field name="TEXT">TelaPrincipalBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="(rVAEcclJA{]N7*,n)!V" x="-4046" y="-2796">
+    <mutation component_type="Button" is_generic="false" instance_name="btnIngles" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnIngles</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="PziGPSu3Nx9]%@HB/LHC">
+        <value name="SCREEN">
+          <block type="text" id="JOvz(+B^L/MhZq+oPC[_">
+            <field name="TEXT">TelaPrincipalEN</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="pHSqvGY6,y7j{~tufa7!" x="-4046" y="-2727">
+    <mutation component_type="Button" is_generic="false" instance_name="btnEspanhol" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnEspanhol</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="!MHIge#$Y`iakEc47QOH">
+        <value name="SCREEN">
+          <block type="text" id="5W0~DLm!,u**K79cHeAn">
+            <field name="TEXT">TelaPrincipalES</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="_~T2uz7Th*8(|RL8zyd]" x="-4046" y="-2658">
+    <mutation component_type="Button" is_generic="false" instance_name="btnFrancês" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnFrancês</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="[KK:Fa4gA}!c5UI%02E9">
+        <value name="SCREEN">
+          <block type="text" id="M7tRuGAp-m)n:_u.}@lI">
+            <field name="TEXT">TelaPrincipalFR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=":sZ,%bD)}4M;aNfykS+g" x="-4046" y="-2590">
+    <mutation component_type="Button" is_generic="false" instance_name="btnChines" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnChines</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="zgcvwiSY]MC+WA$XWtGq">
+        <value name="SCREEN">
+          <block type="text" id="c81DGw+]Wl,$ZA.j3Z}C">
+            <field name="TEXT">TelaPrincipalCH</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

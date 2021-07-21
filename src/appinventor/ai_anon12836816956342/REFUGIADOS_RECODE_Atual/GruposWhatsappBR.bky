@@ -1,0 +1,66 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="w4exM}MKwIX.Uwvql3~d" x="-1236" y="-516">
+    <mutation component_type="Form" is_generic="false" instance_name="GruposWhatsappBR" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">GruposWhatsappBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="0/c!31hZ5s3J~byuMIOr">
+        <value name="SCREEN">
+          <block type="text" id="$aS/i.`d6;YdK9de?Zrd">
+            <field name="TEXT">TelaPrincipalBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="QY2mZKh,)ro:[t1oZ*z%" x="-1233" y="-447">
+    <mutation component_type="Button" is_generic="false" instance_name="btnVenezuela" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnVenezuela</field>
+    <statement name="DO">
+      <block type="component_method" id="rmi+NnRV#U8P}!N^RIXw">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="%anqN29Q4x~0vw@C[5@%" x="-1229" y="-379">
+    <mutation component_type="Button" is_generic="false" instance_name="btnSirios" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnSirios</field>
+    <statement name="DO">
+      <block type="component_method" id="_mG0iqr*k7j=!~^M,F*N">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="}{MhNh5~G_r9NT.T8D$Z" x="-1226" y="-311">
+    <mutation component_type="Button" is_generic="false" instance_name="btnHaitianos" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnHaitianos</field>
+    <statement name="DO">
+      <block type="component_method" id="?kvQ=fkOh;p.C33n|B1(">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="0e%=%v%:M~?w{pw;hxE`" x="-1225" y="-241">
+    <mutation component_type="Button" is_generic="false" instance_name="btnCongoleses" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnCongoleses</field>
+    <statement name="DO">
+      <block type="component_method" id="9NFSB%}*|t(VI29*WQ97">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Y(1BHsIpYkdu3:x?Q|~]" x="-1222" y="-170">
+    <mutation component_type="Button" is_generic="false" instance_name="btnChineses" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnChineses</field>
+    <statement name="DO">
+      <block type="component_method" id="4_rD[5@lm@JUD{vRc,Uy">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

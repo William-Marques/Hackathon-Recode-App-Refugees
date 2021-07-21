@@ -1,0 +1,16 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="T0%#+nxy*d@#7GRx]LsW" x="-1153" y="-591">
+    <mutation component_type="Form" is_generic="false" instance_name="MoradiaBR" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">MoradiaBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="[Gz@rnz%(Z$8|M$$?+[d">
+        <value name="SCREEN">
+          <block type="text" id="{hcUMPib(?H4xqTYa1RS">
+            <field name="TEXT">TelaPrincipalBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

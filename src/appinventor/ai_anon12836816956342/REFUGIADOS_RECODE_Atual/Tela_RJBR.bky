@@ -1,0 +1,16 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="mMN}GiV#G#t/f,R8zS)]" x="-641" y="-260">
+    <mutation component_type="Form" is_generic="false" instance_name="Tela_RJBR" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">Tela_RJBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="/(}9VEeg]^C?xE7kSiiM">
+        <value name="SCREEN">
+          <block type="text" id="Og,Zn5.,6.dz96nY42~V">
+            <field name="TEXT">TelaInternet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

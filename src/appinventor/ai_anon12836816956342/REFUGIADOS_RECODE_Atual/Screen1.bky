@@ -1,0 +1,91 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="global_declaration" id="QQ:9vPHOek]P6=ux@E~j" x="-745" y="-222">
+    <field name="NAME">TB_P</field>
+    <value name="VALUE">
+      <block type="math_number" id="NgEDWm`N`LCI=V!k[-i0">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="j#rs,!Z@HG-cB@ZJ+KwH" x="-747" y="-188">
+    <mutation component_type="Form" is_generic="false" instance_name="Screen1" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Screen1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="bm6lrC8M1!Y5GwPr9!,e">
+        <field name="VAR">global TB_P</field>
+        <value name="VALUE">
+          <block type="component_set_get" id="90rCaDUS7h-=1Y]fys=@">
+            <mutation component_type="Slider" set_or_get="get" property_name="ThumbPosition" is_generic="false" instance_name="Slider1"></mutation>
+            <field name="COMPONENT_SELECTOR">Slider1</field>
+            <field name="PROP">ThumbPosition</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="#?qBn[?9fVwjyByF`Pxb" x="-749" y="-118">
+    <mutation component_type="Clock" is_generic="false" instance_name="Clock1" event_name="Timer"></mutation>
+    <field name="COMPONENT_SELECTOR">Clock1</field>
+    <statement name="DO">
+      <block type="lexical_variable_set" id="!eI0-eH6d|ZNU`#(_VJ2">
+        <field name="VAR">global TB_P</field>
+        <value name="VALUE">
+          <block type="math_add" id="V$|E*Z_k*HcgLWssnNv~">
+            <mutation items="2"></mutation>
+            <value name="NUM0">
+              <block type="lexical_variable_get" id="_AIWl47u{VYykEw,[ZXv">
+                <field name="VAR">global TB_P</field>
+              </block>
+            </value>
+            <value name="NUM1">
+              <block type="math_number" id="$oZPXRhP$hM)j=i#iR?0">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="{Kk}MG{pVY]1dcx5Co%h">
+            <mutation component_type="Slider" set_or_get="set" property_name="ThumbPosition" is_generic="false" instance_name="Slider1"></mutation>
+            <field name="COMPONENT_SELECTOR">Slider1</field>
+            <field name="PROP">ThumbPosition</field>
+            <value name="VALUE">
+              <block type="lexical_variable_get" id="pyvC+uy%JfPJ;IM[1Ra$">
+                <field name="VAR">global TB_P</field>
+              </block>
+            </value>
+            <next>
+              <block type="controls_if" id=")^;c$T:)r)UST/`I|/()">
+                <value name="IF0">
+                  <block type="math_compare" id="d@3Zjs8!RaPQ-f0NL5F5">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="lexical_variable_get" id="Q~g:|9SGV0=3uqmE3(A8">
+                        <field name="VAR">global TB_P</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="math_number" id="c`nsU}56[D)}VXqp~oN?">
+                        <field name="NUM">100</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="controls_openAnotherScreen" id="VOL]9In*7C,b56RmU5D^">
+                    <value name="SCREEN">
+                      <block type="text" id="bC|Y@UmnsC(D9{oU@i!(">
+                        <field name="TEXT">TELA_BEMVINDO</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

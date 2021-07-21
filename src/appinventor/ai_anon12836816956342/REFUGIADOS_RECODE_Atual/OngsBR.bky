@@ -1,0 +1,46 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="*}pvRGrZONu1wzW+R(,]" x="-1024" y="-845">
+    <mutation component_type="Form" is_generic="false" instance_name="OngsBR" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">OngsBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="IviGBTdeQD{lSCwnXMZ.">
+        <value name="SCREEN">
+          <block type="text" id="Q.rkMfW$+?J).nUZz8*2">
+            <field name="TEXT">TelaPrincipalBR</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="Uh|V+nhxhP-PVuQB993N" x="-1026" y="-774">
+    <mutation component_type="Button" is_generic="false" instance_name="btnFacebookIMDH" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnFacebookIMDH</field>
+    <statement name="DO">
+      <block type="component_method" id="qFEID;W,yVk1BKEsKY$W">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="QCAG})nB?UJZ`mAXLu/Q" x="-1028" y="-701">
+    <mutation component_type="Button" is_generic="false" instance_name="btnFacebookRefugio" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnFacebookRefugio</field>
+    <statement name="DO">
+      <block type="component_method" id="p[qWC)J;2nbNhVh@mF+M">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter2"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter2</field>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="%Hwc~!Y*HkdsCmp-Wy)(" x="-1026" y="-630">
+    <mutation component_type="Button" is_generic="false" instance_name="btnFacebookAdus" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">btnFacebookAdus</field>
+    <statement name="DO">
+      <block type="component_method" id="=b@T?oQ+gKF2*q!bO{NU">
+        <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter3"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter3</field>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

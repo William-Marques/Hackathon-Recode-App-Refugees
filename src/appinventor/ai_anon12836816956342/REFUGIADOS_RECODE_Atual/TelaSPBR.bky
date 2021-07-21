@@ -1,0 +1,50 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id=".nf?w@IKN;=`n(M%BU|x" x="-638" y="-282">
+    <mutation component_type="Form" is_generic="false" instance_name="TelaSPBR" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">TelaSPBR</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="~t{V7MaY?FDy-fYNIyW^">
+        <value name="SCREEN">
+          <block type="text" id="TY!tU_mXA{4b^}QKF8+G">
+            <field name="TEXT">TelaInternet</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="dc[^VMZ~!2@#T;l.@-8p" x="-638" y="-213">
+    <mutation component_type="Button" is_generic="false" instance_name="bt_mapawifilivre" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">bt_mapawifilivre</field>
+    <statement name="DO">
+      <block type="component_set_get" id="C!oHU$l;EsQ7k/b0sg(P">
+        <mutation component_type="ActivityStarter" set_or_get="set" property_name="DataUri" is_generic="false" instance_name="ActivityStarter1"></mutation>
+        <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+        <field name="PROP">DataUri</field>
+        <value name="VALUE">
+          <block type="text" id="glXmD#_n|n9ma4j/cL=c">
+            <field name="TEXT">https://wifilivre.sp.gov.br/#map</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="1%?BpEddH:O/G7220-oA">
+            <mutation component_type="ActivityStarter" set_or_get="set" property_name="Action" is_generic="false" instance_name="ActivityStarter1"></mutation>
+            <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+            <field name="PROP">Action</field>
+            <value name="VALUE">
+              <block type="text" id="oYQc#0?D~Y3PRhASPHEc">
+                <field name="TEXT">android.intent.action.VIEW</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="@.c4zcqipLvAgUl*hFfi">
+                <mutation component_type="ActivityStarter" method_name="StartActivity" is_generic="false" instance_name="ActivityStarter1"></mutation>
+                <field name="COMPONENT_SELECTOR">ActivityStarter1</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>

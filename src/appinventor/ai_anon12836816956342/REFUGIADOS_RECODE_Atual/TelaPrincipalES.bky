@@ -1,0 +1,16 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="CnVDxZbXSRMrtocvSFP2" x="-569" y="-368">
+    <mutation component_type="Form" is_generic="false" instance_name="TelaPrincipalES" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">TelaPrincipalES</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="_S1Rs*Xeju6,Iv.39ZxG">
+        <value name="SCREEN">
+          <block type="text" id="W.n{9`a;|,v)9VqswY*E">
+            <field name="TEXT">TELA_BEMVINDO</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="208" language-version="33"></yacodeblocks>
+</xml>
